@@ -106,7 +106,7 @@ export const Card: FC<CardProps> = ({ id, text, index, moveCard }) => {
     <div ref={ref} style={{ ...style, opacity }} data-handler-id={handlerId}>
       <p>{text}</p>
       <p>id : {id}</p>
-      <p>order : {index}</p>
+      <p>order : {index + 1}</p>
     </div>
   );
 };
